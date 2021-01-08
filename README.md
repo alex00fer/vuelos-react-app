@@ -1,3 +1,13 @@
+# React App Vuelos
+This app connects to `http://localhost/vuelosapi/` to fetch the data and perform the CRUD operations.
+The final ready to use version is at `/build`.
+
+![](previews/1.png)
+![](previews/2.png)
+![](previews/3.png)
+![](previews/4.png)
+![](previews/5.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

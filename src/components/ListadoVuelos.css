@@ -1,0 +1,38 @@
+.Flight {
+  background-color: #4f3a96;
+  background: linear-gradient(to right, #7059be, #4f3a96);
+  color: white;
+  padding: 1em 0em;
+  width: 100%;
+  margin: 1em;
+}
+
+button {
+  background-color: rgb(250, 180, 50) !important;
+}
+
+hr {
+  border-top: 1px dashed rgb(250, 180, 50);
+}
+
+p {
+  font-size: 1.2em;
+  margin: 0.2em;
+}
+
+p.Destino {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+p.Hora {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+p.Plazas {
+  font-size: 0.9em;
+  font-weight: normal;
+  margin-bottom: 1.5em;
+}
+

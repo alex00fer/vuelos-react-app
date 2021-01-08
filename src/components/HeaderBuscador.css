@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 7em;
+  pointer-events: none;
+  margin: 2em;
+  animation: App-logo-spin infinite 5s;
+}
+
+.Header {
+  /* Background image */
+  background: url(../assets/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  background-color: #3a285c;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+.SearchPanel {
+  background-color: #3a285c;
+  padding: 2em;
+  margin: 2em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  background-color: rgb(250, 180, 50) !important;
+}
+
+hr {
+  border-top: 1px dashed rgb(250, 180, 50);
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(-1deg);;
+  }
+  50% {
+    transform: rotate(1deg);;
+  }
+  100% {
+    transform: rotate(-1deg);;
+  }
+}
